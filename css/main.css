@@ -14,7 +14,7 @@
 
   /* Primary Colors */
   --color-primary: #667eea;
-  --color-primary-hover: #5a6fd8;
+  --color-primary-hover: #475aba;
   --color-primary-light: rgba(102, 126, 234, 0.1);
   --color-primary-border: rgba(102, 126, 234, 0.2);
 
@@ -443,6 +443,18 @@ body {
   font-weight: var(--font-weight-semibold);
 }
 
+.mobile-nav-content .btn {
+  padding: var(--space-4);
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 0;
+  display: block;
+}
+
 /* ========================================
    HERO SECTION
    ======================================== */
@@ -586,7 +598,7 @@ body {
 }
 
 .btn-primary:hover {
-  transform: translateY(-1px);
+  /* transform: translateY(-1px); */
   box-shadow: var(--shadow-lg);
   background: var(--color-primary-hover);
 }
@@ -600,7 +612,7 @@ body {
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.8);
-  transform: translateY(-1px);
+  /* transform: translateY(-1px); */
 }
 
 /* Code Preview */
